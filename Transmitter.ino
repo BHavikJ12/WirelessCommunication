@@ -14,7 +14,7 @@ void setup()
  
 void loop()
 {
-    const char *msg = "Hello World";
+    const char *msg = "Dammm!!";
     rf_driver.send((uint8_t *)msg, strlen(msg));
     rf_driver.waitPacketSent();
     delay(1000);
